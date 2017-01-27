@@ -14,12 +14,18 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        NotificationCenter.default.addObserver(self,
+        selector: #selector(ViewController.setPinLabel),
+        name: Notification.Name.UIApplicationDidEnterBackground,
+        object: nil)
+    }
+    
+    func setPinLabel(notification: Notification){
+        
         lblpin.text="PIN: "
     }
     
-    override func viewDidAppear(_ animated: Bool) {
-        lblpin.text="PIN: "
-    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
