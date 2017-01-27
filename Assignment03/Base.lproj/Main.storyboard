@@ -6,10 +6,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--LoginViewController-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Assignment03" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" userLabel="LoginViewController" customClass="ViewController" customModule="Assignment03" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -118,7 +118,7 @@
                                     <action selector="btn2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q5G-rX-pAH"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PIN:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pBY-Qd-zgD">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PIN: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pBY-Qd-zgD">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="PVO-hj-GFw"/>
                                     <constraint firstAttribute="height" constant="21" id="VNP-jE-bRB"/>
@@ -134,7 +134,7 @@
                                 </constraints>
                                 <state key="normal" title="Enter"/>
                                 <connections>
-                                    <action selector="btnEnterPin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="B0T-L8-2bQ"/>
+                                    <action selector="btnEnterPin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="k54-uO-sL2"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -202,15 +202,13 @@
                                 <exclude reference="AvL-Vn-HOH"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="0wS-OG-PbT"/>
-                                <exclude reference="vYH-5r-t5p"/>
-                                <exclude reference="KkH-QY-eLp"/>
-                                <exclude reference="kwS-kW-Lvo"/>
-                                <exclude reference="LMu-pw-3ic"/>
-                                <exclude reference="vCc-dZ-XWn"/>
-                                <exclude reference="Mm6-Dz-grs"/>
-                                <exclude reference="NjH-1V-QkO"/>
-                                <exclude reference="QFe-SY-at7"/>
+                                <exclude reference="2N4-o4-qIh"/>
+                                <exclude reference="Jvl-Fj-Nak"/>
+                                <exclude reference="Mtx-0X-tTt"/>
+                                <exclude reference="ZQJ-4f-ZDV"/>
+                                <exclude reference="D04-jk-zpd"/>
+                                <exclude reference="oTR-Yl-Tyi"/>
+                                <exclude reference="tn9-DZ-EOm"/>
                                 <exclude reference="MGv-CN-3Wr"/>
                                 <exclude reference="1hK-qu-0jH"/>
                                 <exclude reference="4cK-00-Luz"/>
@@ -224,6 +222,11 @@
                                 <exclude reference="ctC-yj-ajz"/>
                                 <exclude reference="oOf-4k-8VI"/>
                                 <exclude reference="wc9-ps-CHi"/>
+                                <exclude reference="7Hf-OZ-0ea"/>
+                                <exclude reference="PgO-dg-LVY"/>
+                                <exclude reference="V2f-fh-BW0"/>
+                                <exclude reference="LMu-pw-3ic"/>
+                                <exclude reference="vCc-dZ-XWn"/>
                                 <exclude reference="2PP-hp-PUF"/>
                                 <exclude reference="2bg-HK-8dx"/>
                                 <exclude reference="8ww-ko-MwU"/>
@@ -235,22 +238,19 @@
                                 <exclude reference="isq-JP-NkV"/>
                                 <exclude reference="uX5-24-cUb"/>
                                 <exclude reference="xFc-PP-BMY"/>
-                                <exclude reference="D04-jk-zpd"/>
-                                <exclude reference="oTR-Yl-Tyi"/>
-                                <exclude reference="tn9-DZ-EOm"/>
                                 <exclude reference="g68-XG-3vU"/>
                                 <exclude reference="h4R-gv-QPh"/>
                                 <exclude reference="y6d-mo-Itl"/>
+                                <exclude reference="0wS-OG-PbT"/>
+                                <exclude reference="vYH-5r-t5p"/>
+                                <exclude reference="KkH-QY-eLp"/>
+                                <exclude reference="kwS-kW-Lvo"/>
+                                <exclude reference="Mm6-Dz-grs"/>
+                                <exclude reference="NjH-1V-QkO"/>
+                                <exclude reference="QFe-SY-at7"/>
                                 <exclude reference="vje-M0-8yb"/>
                                 <exclude reference="xdb-Ie-kXg"/>
                                 <exclude reference="yzT-Is-P4J"/>
-                                <exclude reference="7Hf-OZ-0ea"/>
-                                <exclude reference="PgO-dg-LVY"/>
-                                <exclude reference="V2f-fh-BW0"/>
-                                <exclude reference="2N4-o4-qIh"/>
-                                <exclude reference="Jvl-Fj-Nak"/>
-                                <exclude reference="Mtx-0X-tTt"/>
-                                <exclude reference="ZQJ-4f-ZDV"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=compact-widthClass=compact">
@@ -265,8 +265,9 @@
                                 <include reference="AvL-Vn-HOH"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="LMu-pw-3ic"/>
-                                <include reference="QFe-SY-at7"/>
+                                <include reference="Mtx-0X-tTt"/>
+                                <include reference="ZQJ-4f-ZDV"/>
+                                <include reference="tn9-DZ-EOm"/>
                                 <include reference="MGv-CN-3Wr"/>
                                 <include reference="1hK-qu-0jH"/>
                                 <include reference="4cK-00-Luz"/>
@@ -279,16 +280,15 @@
                                 <include reference="ctC-yj-ajz"/>
                                 <include reference="oOf-4k-8VI"/>
                                 <include reference="wc9-ps-CHi"/>
+                                <include reference="7Hf-OZ-0ea"/>
+                                <include reference="LMu-pw-3ic"/>
                                 <include reference="KDP-tR-L7c"/>
                                 <include reference="isq-JP-NkV"/>
-                                <include reference="tn9-DZ-EOm"/>
                                 <include reference="g68-XG-3vU"/>
                                 <include reference="y6d-mo-Itl"/>
+                                <include reference="QFe-SY-at7"/>
                                 <include reference="xdb-Ie-kXg"/>
                                 <include reference="yzT-Is-P4J"/>
-                                <include reference="7Hf-OZ-0ea"/>
-                                <include reference="Mtx-0X-tTt"/>
-                                <include reference="ZQJ-4f-ZDV"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -303,14 +303,14 @@
                                 <include reference="AvL-Vn-HOH"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="0wS-OG-PbT"/>
-                                <include reference="vYH-5r-t5p"/>
-                                <include reference="KkH-QY-eLp"/>
-                                <include reference="kwS-kW-Lvo"/>
-                                <include reference="vCc-dZ-XWn"/>
-                                <include reference="Mm6-Dz-grs"/>
-                                <include reference="NjH-1V-QkO"/>
+                                <include reference="2N4-o4-qIh"/>
+                                <include reference="Jvl-Fj-Nak"/>
+                                <include reference="D04-jk-zpd"/>
+                                <include reference="oTR-Yl-Tyi"/>
                                 <include reference="Ohg-Oa-nXt"/>
+                                <include reference="PgO-dg-LVY"/>
+                                <include reference="V2f-fh-BW0"/>
+                                <include reference="vCc-dZ-XWn"/>
                                 <include reference="2PP-hp-PUF"/>
                                 <include reference="2bg-HK-8dx"/>
                                 <include reference="8ww-ko-MwU"/>
@@ -320,25 +320,111 @@
                                 <include reference="dla-zV-Kew"/>
                                 <include reference="uX5-24-cUb"/>
                                 <include reference="xFc-PP-BMY"/>
-                                <include reference="D04-jk-zpd"/>
-                                <include reference="oTR-Yl-Tyi"/>
                                 <include reference="h4R-gv-QPh"/>
+                                <include reference="0wS-OG-PbT"/>
+                                <include reference="vYH-5r-t5p"/>
+                                <include reference="KkH-QY-eLp"/>
+                                <include reference="kwS-kW-Lvo"/>
+                                <include reference="Mm6-Dz-grs"/>
+                                <include reference="NjH-1V-QkO"/>
                                 <include reference="vje-M0-8yb"/>
-                                <include reference="PgO-dg-LVY"/>
-                                <include reference="V2f-fh-BW0"/>
-                                <include reference="2N4-o4-qIh"/>
-                                <include reference="Jvl-Fj-Nak"/>
                             </mask>
                         </variation>
                     </view>
                     <connections>
                         <outlet property="btn6" destination="oGd-8D-ZMg" id="5Q3-dQ-5rq"/>
                         <outlet property="lblpin" destination="pBY-Qd-zgD" id="cxF-T7-8Dp"/>
+                        <segue destination="sIq-vM-gg3" kind="show" identifier="showBucketList" id="pEA-G0-k3U"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="126.38680659670166" y="80.799999999999997"/>
         </scene>
+        <!--BucketListViewController-->
+        <scene sceneID="ht6-CI-dvn">
+            <objects>
+                <viewController id="sIq-vM-gg3" userLabel="BucketListViewController" customClass="BucketListViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yzp-ej-JHZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="FnQ-yB-4Fk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ZRz-fT-BVZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="D4L-ob-vGv">
+                                <frame key="frameInset" minY="342" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Navigation Bar" id="FfZ-Ca-N2U">
+                                        <barButtonItem key="leftBarButtonItem" title="&lt;" id="8Yy-EU-rYO">
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="show" id="bC6-WI-9Ft"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="+" id="YvB-e1-rsp">
+                                            <connections>
+                                                <segue destination="W3n-Y8-5rg" kind="show" id="aYY-aA-sXs"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eez-Jx-QUf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="996" y="81"/>
+        </scene>
+        <!--New Item View Controller-->
+        <scene sceneID="uDv-k1-z05">
+            <objects>
+                <viewController id="W3n-Y8-5rg" customClass="NewItemViewController" customModule="Assignment03" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="H3L-bL-LA0"/>
+                        <viewControllerLayoutGuide type="bottom" id="w39-qe-OHp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="p8x-oO-8zP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eGO-yw-ES1" userLabel="txtInput">
+                                <frame key="frameInset" minX="16" minY="82" width="343" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DdD-fD-0N3">
+                                <frame key="frameInset" minY="342" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Navigation Bar" id="s6X-aA-DIt">
+                                        <barButtonItem key="leftBarButtonItem" title="Done" id="aal-1T-0n3">
+                                            <connections>
+                                                <action selector="btnDone:" destination="W3n-Y8-5rg" id="RRk-SA-Eud"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="txtInput" destination="eGO-yw-ES1" id="uBx-nn-97a"/>
+                        <segue destination="sIq-vM-gg3" kind="show" identifier="goBack" id="EIo-Hx-4UX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="88y-vA-cyg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1836" y="79.610194902548727"/>
+        </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="EIo-Hx-4UX"/>
+    </inferredMetricsTieBreakers>
 </document>

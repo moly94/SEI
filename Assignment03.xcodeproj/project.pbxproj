@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F749ECC1E3B8C9D00165D12 /* NewItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F749ECB1E3B8C9D00165D12 /* NewItemViewController.swift */; };
 		3F84B13E1E39E07A0065333B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F84B13D1E39E07A0065333B /* AppDelegate.swift */; };
 		3F84B1401E39E07A0065333B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F84B13F1E39E07A0065333B /* ViewController.swift */; };
 		3F84B1431E39E07A0065333B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F84B1411E39E07A0065333B /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F749ECB1E3B8C9D00165D12 /* NewItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewItemViewController.swift; sourceTree = "<group>"; };
 		3F84B13A1E39E07A0065333B /* Assignment03.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment03.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F84B13D1E39E07A0065333B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F84B13F1E39E07A0065333B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				3F84B13D1E39E07A0065333B /* AppDelegate.swift */,
 				3F84B13F1E39E07A0065333B /* ViewController.swift */,
+				3F749ECB1E3B8C9D00165D12 /* NewItemViewController.swift */,
 				3F84B1411E39E07A0065333B /* Main.storyboard */,
 				3F84B1441E39E07A0065333B /* Assets.xcassets */,
 				3F84B1461E39E07A0065333B /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				3F84B1401E39E07A0065333B /* ViewController.swift in Sources */,
 				3F84B13E1E39E07A0065333B /* AppDelegate.swift in Sources */,
+				3F749ECC1E3B8C9D00165D12 /* NewItemViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +509,7 @@
 				3F84B1641E39E07A0065333B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F84B1651E39E07A0065333B /* Build configuration list for PBXNativeTarget "Assignment03Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				3F84B1671E39E07A0065333B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F84B1681E39E07A0065333B /* Build configuration list for PBXNativeTarget "Assignment03UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				3F84B16A1E39E07A0065333B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

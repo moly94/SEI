@@ -32,13 +32,17 @@ class ViewController: UIViewController {
         let defaults = UserDefaults.standard
         
         
-        if defaults.object(forKey: "wasLaunchedBefore")==nil {
+        if defaults.object(forKey: "PIN")==nil {
             // do something with username
             
-            defaults.set("Jedi84", forKey: lblpin.text!)
+            defaults.set(lblpin.text, forKey: "PIN")
             defaults.synchronize()
-        } else if defaults.object(forKey: "Jedi84") as? String != lblpin.text {
+            self.performSegue(withIdentifier: "showBucketList", sender: self)
+        } else if defaults.object(forKey: "PIN") as? String != lblpin.text {
             lblpin.text="BLA"
+        } else {
+            self.performSegue(withIdentifier: "showBucketList", sender: self)
+            
         }
         
 
