@@ -27,6 +27,25 @@ class ViewController: UIViewController {
     }
     
 
+    @IBAction func btnEnterPin(_ sender: AnyObject) {
+        
+        let defaults = UserDefaults.standard
+        
+        
+        if defaults.object(forKey: "wasLaunchedBefore")==nil {
+            // do something with username
+            
+            defaults.set("Jedi84", forKey: lblpin.text!)
+            defaults.synchronize()
+        } else if defaults.object(forKey: "Jedi84") as? String != lblpin.text {
+            lblpin.text="BLA"
+        }
+        
+
+    }
+    
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
