@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F160E721E3E6254008D6303 /* MyDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F160E711E3E6254008D6303 /* MyDelegate.swift */; };
+		3F160E741E3E68A3008D6303 /* BucketListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F160E731E3E68A3008D6303 /* BucketListViewController.swift */; };
+		3F160E771E3E6BF5008D6303 /* BucketTaskCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F160E751E3E6BF5008D6303 /* BucketTaskCoreData.swift */; };
+		3F160E781E3E6BF5008D6303 /* BucketTaskCoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F160E761E3E6BF5008D6303 /* BucketTaskCoreDataProperties.swift */; };
+		3F160E7D1E3E6E6D008D6303 /* Model.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 3F160E7C1E3E6E6D008D6303 /* Model.xcdatamodel */; };
 		3F749ECC1E3B8C9D00165D12 /* NewItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F749ECB1E3B8C9D00165D12 /* NewItemViewController.swift */; };
 		3F84B13E1E39E07A0065333B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F84B13D1E39E07A0065333B /* AppDelegate.swift */; };
 		3F84B1401E39E07A0065333B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F84B13F1E39E07A0065333B /* ViewController.swift */; };
@@ -35,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F160E711E3E6254008D6303 /* MyDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyDelegate.swift; sourceTree = "<group>"; };
+		3F160E731E3E68A3008D6303 /* BucketListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BucketListViewController.swift; sourceTree = "<group>"; };
+		3F160E751E3E6BF5008D6303 /* BucketTaskCoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BucketTaskCoreData.swift; sourceTree = "<group>"; };
+		3F160E761E3E6BF5008D6303 /* BucketTaskCoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BucketTaskCoreDataProperties.swift; sourceTree = "<group>"; };
+		3F160E7C1E3E6E6D008D6303 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		3F749ECB1E3B8C9D00165D12 /* NewItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewItemViewController.swift; sourceTree = "<group>"; };
 		3F84B13A1E39E07A0065333B /* Assignment03.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment03.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F84B13D1E39E07A0065333B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -99,9 +109,14 @@
 		3F84B13C1E39E07A0065333B /* Assignment03 */ = {
 			isa = PBXGroup;
 			children = (
+				3F160E751E3E6BF5008D6303 /* BucketTaskCoreData.swift */,
+				3F160E761E3E6BF5008D6303 /* BucketTaskCoreDataProperties.swift */,
 				3F84B13D1E39E07A0065333B /* AppDelegate.swift */,
 				3F84B13F1E39E07A0065333B /* ViewController.swift */,
 				3F749ECB1E3B8C9D00165D12 /* NewItemViewController.swift */,
+				3F160E7C1E3E6E6D008D6303 /* Model.xcdatamodel */,
+				3F160E731E3E68A3008D6303 /* BucketListViewController.swift */,
+				3F160E711E3E6254008D6303 /* MyDelegate.swift */,
 				3F84B1411E39E07A0065333B /* Main.storyboard */,
 				3F84B1441E39E07A0065333B /* Assets.xcassets */,
 				3F84B1461E39E07A0065333B /* LaunchScreen.storyboard */,
@@ -191,7 +206,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Student;
 				TargetAttributes = {
 					3F84B1391E39E0790065333B = {
@@ -262,8 +277,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F160E781E3E6BF5008D6303 /* BucketTaskCoreDataProperties.swift in Sources */,
+				3F160E721E3E6254008D6303 /* MyDelegate.swift in Sources */,
 				3F84B1401E39E07A0065333B /* ViewController.swift in Sources */,
 				3F84B13E1E39E07A0065333B /* AppDelegate.swift in Sources */,
+				3F160E741E3E68A3008D6303 /* BucketListViewController.swift in Sources */,
+				3F160E771E3E6BF5008D6303 /* BucketTaskCoreData.swift in Sources */,
+				3F160E7D1E3E6E6D008D6303 /* Model.xcdatamodel in Sources */,
 				3F749ECC1E3B8C9D00165D12 /* NewItemViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,6 +357,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -387,6 +408,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
