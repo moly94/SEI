@@ -22,7 +22,7 @@ class BucketListViewController: UITableViewController, NSFetchedResultsControlle
     
     // Returns the managed object context for the application
     lazy var managedContext: NSManagedObjectContext? = {
-        guard let appDelegate = UIApplication.shared.delegate as? MyDelegate else {
+        guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else {
             return nil
         }
         return appDelegate.persistentContainer.viewContext
