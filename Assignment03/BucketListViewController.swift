@@ -72,6 +72,7 @@ class BucketListViewController: UITableViewController, NSFetchedResultsControlle
         
         cell.textLabel?.text = bucketTask.content
         
+        
         return cell
     }
     
@@ -81,7 +82,7 @@ class BucketListViewController: UITableViewController, NSFetchedResultsControlle
     
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
-            let bucketTaskEntity = "BucketTask"
+            //let bucketTaskEntity = "BucketTask"
             let managedContext = self.managedContext!
             let bucketTask = self.fetchedResultsController.object(at: indexPath) as! BucketTask
             

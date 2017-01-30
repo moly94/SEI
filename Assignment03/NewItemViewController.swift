@@ -32,7 +32,7 @@ class NewItemViewController: UIViewController {
     @IBAction func btnDone(_ sender: AnyObject) {
         
         let data = txtInput.text
-        let bucketTask = NSEntityDescription.insertNewObject(forEntityName: "BucketTask", into: self.managedContext!) as! BucketTask;
+        let bucketTask = NSEntityDescription.insertNewObject(forEntityName: "BucketTask", into: self.managedContext!) as! BucketTask
         bucketTask.content=data
         
         saveStuff()

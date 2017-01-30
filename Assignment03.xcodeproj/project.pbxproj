@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		3F160E741E3E68A3008D6303 /* BucketListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F160E731E3E68A3008D6303 /* BucketListViewController.swift */; };
-		3F160E7D1E3E6E6D008D6303 /* Model.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 3F160E7C1E3E6E6D008D6303 /* Model.xcdatamodel */; };
 		3F749ECC1E3B8C9D00165D12 /* NewItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F749ECB1E3B8C9D00165D12 /* NewItemViewController.swift */; };
 		3F749ECE1E3F48F100165D12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F749ECD1E3F48F100165D12 /* AppDelegate.swift */; };
-		3F749ED41E3F4F5D00165D12 /* BucketTask+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F749ED21E3F4F5D00165D12 /* BucketTask+CoreDataClass.swift */; };
-		3F749ED51E3F4F5D00165D12 /* BucketTask+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F749ED31E3F4F5D00165D12 /* BucketTask+CoreDataProperties.swift */; };
+		3F749EE51E3F75FC00165D12 /* BucketModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F749EE31E3F75FC00165D12 /* BucketModel.xcdatamodeld */; };
+		3F749EE81E3F765900165D12 /* BucketTask+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F749EE61E3F765900165D12 /* BucketTask+CoreDataClass.swift */; };
+		3F749EE91E3F765900165D12 /* BucketTask+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F749EE71E3F765900165D12 /* BucketTask+CoreDataProperties.swift */; };
 		3F84B1401E39E07A0065333B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F84B13F1E39E07A0065333B /* ViewController.swift */; };
 		3F84B1431E39E07A0065333B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F84B1411E39E07A0065333B /* Main.storyboard */; };
 		3F84B1451E39E07A0065333B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F84B1441E39E07A0065333B /* Assets.xcassets */; };
@@ -40,11 +40,11 @@
 
 /* Begin PBXFileReference section */
 		3F160E731E3E68A3008D6303 /* BucketListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BucketListViewController.swift; sourceTree = "<group>"; };
-		3F160E7C1E3E6E6D008D6303 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		3F749ECB1E3B8C9D00165D12 /* NewItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewItemViewController.swift; sourceTree = "<group>"; };
 		3F749ECD1E3F48F100165D12 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F749ED21E3F4F5D00165D12 /* BucketTask+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "BucketTask+CoreDataClass.swift"; path = "../BucketTask+CoreDataClass.swift"; sourceTree = "<group>"; };
-		3F749ED31E3F4F5D00165D12 /* BucketTask+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "BucketTask+CoreDataProperties.swift"; path = "../BucketTask+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3F749EE41E3F75FC00165D12 /* BucketModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BucketModel.xcdatamodel; sourceTree = "<group>"; };
+		3F749EE61E3F765900165D12 /* BucketTask+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BucketTask+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3F749EE71E3F765900165D12 /* BucketTask+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BucketTask+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		3F84B13A1E39E07A0065333B /* Assignment03.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment03.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F84B13F1E39E07A0065333B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3F84B1421E39E07A0065333B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -107,17 +107,17 @@
 		3F84B13C1E39E07A0065333B /* Assignment03 */ = {
 			isa = PBXGroup;
 			children = (
-				3F749ED21E3F4F5D00165D12 /* BucketTask+CoreDataClass.swift */,
-				3F749ED31E3F4F5D00165D12 /* BucketTask+CoreDataProperties.swift */,
+				3F749EE61E3F765900165D12 /* BucketTask+CoreDataClass.swift */,
+				3F749EE71E3F765900165D12 /* BucketTask+CoreDataProperties.swift */,
 				3F84B13F1E39E07A0065333B /* ViewController.swift */,
 				3F749ECB1E3B8C9D00165D12 /* NewItemViewController.swift */,
 				3F749ECD1E3F48F100165D12 /* AppDelegate.swift */,
-				3F160E7C1E3E6E6D008D6303 /* Model.xcdatamodel */,
 				3F160E731E3E68A3008D6303 /* BucketListViewController.swift */,
 				3F84B1411E39E07A0065333B /* Main.storyboard */,
 				3F84B1441E39E07A0065333B /* Assets.xcassets */,
 				3F84B1461E39E07A0065333B /* LaunchScreen.storyboard */,
 				3F84B1491E39E07A0065333B /* Info.plist */,
+				3F749EE31E3F75FC00165D12 /* BucketModel.xcdatamodeld */,
 			);
 			path = Assignment03;
 			sourceTree = "<group>";
@@ -274,13 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F749ED51E3F4F5D00165D12 /* BucketTask+CoreDataProperties.swift in Sources */,
+				3F749EE91E3F765900165D12 /* BucketTask+CoreDataProperties.swift in Sources */,
 				3F749ECE1E3F48F100165D12 /* AppDelegate.swift in Sources */,
 				3F84B1401E39E07A0065333B /* ViewController.swift in Sources */,
 				3F160E741E3E68A3008D6303 /* BucketListViewController.swift in Sources */,
-				3F160E7D1E3E6E6D008D6303 /* Model.xcdatamodel in Sources */,
-				3F749ED41E3F4F5D00165D12 /* BucketTask+CoreDataClass.swift in Sources */,
 				3F749ECC1E3B8C9D00165D12 /* NewItemViewController.swift in Sources */,
+				3F749EE81E3F765900165D12 /* BucketTask+CoreDataClass.swift in Sources */,
+				3F749EE51E3F75FC00165D12 /* BucketModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -548,6 +548,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3F749EE31E3F75FC00165D12 /* BucketModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3F749EE41E3F75FC00165D12 /* BucketModel.xcdatamodel */,
+			);
+			currentVersion = 3F749EE41E3F75FC00165D12 /* BucketModel.xcdatamodel */;
+			path = BucketModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3F84B1321E39E0790065333B /* Project object */;
 }
