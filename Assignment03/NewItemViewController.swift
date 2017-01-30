@@ -37,7 +37,9 @@ class NewItemViewController: UIViewController {
         
         saveStuff()
         
-        self.performSegue(withIdentifier: "goBack", sender: self)
+        txtInput.text=""
+        
+    
     }
     
     func saveStuff() {
